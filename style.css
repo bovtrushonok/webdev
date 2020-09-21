@@ -290,6 +290,7 @@ p {
   margin-left: 30px;
 }
 
+
 .slider-photos img:first-child {
   margin-left: -15px;
   position: relative;
@@ -323,7 +324,7 @@ p {
   background-image: url("assets/img/pexels-christina-morillo-1181675.png"); 
 }
 
-.sign-up h2 {
+.sign-up h2, .download h2 {
   font-size: 24px;
   font-weight: 700;
   color: white;
@@ -356,6 +357,11 @@ p {
   
 }
 
+.form-btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
 form input {
   width: 305px;
   font-size: 14px;
@@ -364,8 +370,79 @@ form input {
   margin: -25px -5px 0 0;
   position: relative;
   top: -25px;
-  
 }
+
+.download {
+  width: 100%;
+  height: 464px;
+  position: relative;
+  top: -95px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.download h2 {
+  color: black;
+  margin: -75px auto 5px;
+  padding: 0;
+}
+
+.text-wrap {
+  width: 480px;
+}
+
+.download p {
+  color: black;
+  text-align: center;
+}
+
+.reference {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.reference input {
+  width: 127px;
+  height: 42px;
+  background-color: #00AFDB;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 5px;
+  border: none;
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+
+.ref-btn {
+  background-color: #009CC2;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 59px;
+  height: 48px;
+  border: none;
+  position: relative;
+  top: 15px;
+  left: -7px;
+}
+
+.appl {
+  background-image: url("assets/img/icon-apple.png");
+  margin-right: 20px;
+}
+
+.andr {
+  background-image: url("assets/img/icon-android.png");
+}
+
+.reference input:hover{
+  background-color: #009CC2;
+  cursor: pointer;
+}
+
 /*
 .services-list {
   width: 100%;
